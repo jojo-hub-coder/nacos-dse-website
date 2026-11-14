@@ -2,7 +2,6 @@
     margin: 0%;
     padding: 0%;
     text-decoration: none;
-    
 }
 header{
     padding: 1rem 9%;
@@ -13,16 +12,19 @@ header{
     align-items: center;
     background-color: transparent;
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
+    background-color: black;
+    height: 50px;
 }
 .logo{
-    color: black;
-    font-size: 2.2rem;
+    color: rgb(217, 215, 215);
+    font-size: 2.1rem;
     font-weight: 700;
 }
 .logo:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
     transition: 0.3s ease;
+    background-color: transparent;
     
 }
 .navdiv{
@@ -56,16 +58,53 @@ header a button:hover{
 .header{
     text-align: left;
     padding-left: 150px;
+    padding-top: 150px;
+    padding-bottom: 5px;
+    color: whitesmoke;
 }
 .header h1{
-    padding-bottom: 5px;
-    color: black; 
+     color: aqua;
+     padding-bottom: 20px;
 }
-
+.header button{
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.header button:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+.b1{
+    color: black;
+    background-color: aqua;
+    margin-right: 20px;
+}
+.b2{
+    color: black;
+    background-color: orange;
+}
 .head{
+  background-image: linear-gradient(to left, transparent,black,rgb(57, 24, 24)), url(../images/background2.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-color: bisque;
-  height: 400px;
+  height: 550px;
   width: 100%;
 }
-
-
+.about{
+    padding-top: 40px;
+    text-align: center;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 400px;
+}
+.about p{
+    padding-top: 20px;
+}
+.do{
+    width: 100%;
+    height: 400px;
+}

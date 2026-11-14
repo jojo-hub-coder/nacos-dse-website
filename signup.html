@@ -5,7 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
 </head>
+<link rel="stylesheet" href="css/signup.css">
 <body>
-    
+    <div>
+        <form>
+            <h1 class="logo">NACOS DSE 💻</h1>
+          Username:<input class="username" type="text" placeholder="username" required minlength="8" maxlength="16">
+            Email:<input class="email" type="email" placeholder="email" required minlength="8" maxlength="30">
+            Password:<input class="password" type="password" placeholder="password" required minlength="6" maxlength="16">
+            <select class="role">
+                <option value="">Select Role</option>
+                <option value="Student">Student</option>
+                <option value="Lecturer">Lecturer</option>
+            </select>
+            <select class="department">
+                <option value="Department">Department</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Software Engineering">Software Engineering</option>
+                <option value="Information Technology">Information Technology</option>
+                <option value="Information Systems">Information Systems</option>
+            </select>
+           <a href="index.html"><input class="submit" type="submit" value="Sign Up"></a> 
+        </form>
+    </div>
 </body>
 </html>
