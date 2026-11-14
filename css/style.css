@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    
+}
+header{
+    padding: 1rem 9%;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+    padding-bottom: 100px;
+}
+.logo{
+    color: black;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    
+}
+.navdiv{
+    padding-right: 200px;
+}
+header a{
+    text-align: center;
+    color: gray;
+    margin-left: 100px;
+    font-size: 20px;
+}
+header a:hover{
+    font-size: 22px;
+    color: red;
+    transition: 0.3s ease;
+}
+header a button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+header a button:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+.navdiv a:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease;
+
+}
+.header{
+    text-align: left;
+    padding-left: 150px;
+}
+.header h1{
+    padding-bottom: 5px;
+    color: black; 
+}
+
+.head{
+  background-color: bisque;
+  height: 400px;
+  width: 100%;
+}
+
+
